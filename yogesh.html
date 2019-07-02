@@ -1,0 +1,99 @@
+<DOCTYOPE html>
+<html lang="en">
+<title>Registration Form</title>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Yogesh">
+</head>
+<body>
+<form method="POST" name="regform" action="#"
+enctype="multipart/form data">
+<fieldset>
+<legend>Registration form</legend>
+<table border=0 cellpadding=10 cellspacing=10>
+<tr>
+<td>Full name</td>
+<td>
+<input type="text" name="full name"
+placeholder="First middle last" required/>
+</td>
+</tr>
+
+<tr>
+<td>Email</td>
+<td>
+<input type="email" Email="email address" placeholder="you@domain.com" required/>
+</td>
+</tr>
+
+<tr>
+<td>Password</td>
+<td>
+<input type="password" Password="Password" placeholder="**********" required/>
+</td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="gender" value="F" />Female
+<input type="radio" name="gender" value="M" />Male
+<input type="radio" name="gender" value="O" />Others
+</td>
+</tr>
+
+<tr>
+<td>City</td>
+<td>
+<select name="city" size=2>
+<option value="ght">Gaighat</option>
+<option value="brt">Biratnagar</option>
+<option value="jnkp">Janakpur</option>
+<option value="ktm">Kathmandu</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>DOB</td>
+<td>
+<input type="date" DOB="DOB" placeholder="dd/mm/yyyy" required />
+</tr>
+</td>
+
+<tr>
+<td>Course</td>
+<td>
+<input type="checkbox" name="php" value="php" checked/>PHP
+<input type="checkbox" name="asp" value="asp" checked/>ASP
+<input type="checkbox" name="java" value="java" checked/>JAVA
+</td>
+</tr>
+
+<tr>
+<td>Photo</td>
+<td>
+<input type="file" name="upload" />
+</td>
+</tr>
+<tr>
+<td>message</td>
+<td>
+<textarea rows=5 cols=40 name="message">
+</textarea>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<input type="checkbox" name="iagree"  required/>I agree all the information filled in my contact
+</td>
+
+
+
+</table>
+</fieldset>
+</form>
+</body>
+</html>
